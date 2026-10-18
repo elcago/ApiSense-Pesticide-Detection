@@ -21,7 +21,7 @@ Detects bees in each frame using a fine-tuned YOLOv8s model, tracks individual b
 
 Extracts six foraging features including activity levels, flight trip timing, and homing failure rate, and eight acoustic features including wingbeat frequency stability, spectral structure, and energy.
 
-### 3. Acoustic Feature Extraction: `Acoustic_feature.py`
+**3. Acoustic Feature Extraction** — `acoustic_feature.py`
 
 Extracts eight acoustic features from hive audio recordings, including fundamental frequency (f0), f0 stability, harmonic ratio, spectral centroid, spectral bandwidth, spectral flux, RMS energy, and zero crossing rate.
 
