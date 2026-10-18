@@ -48,6 +48,8 @@ Computes integrated gradients (IG) attribution scores for each feature throughou
 
 ## Results
 
+WAM-Net achieves 80.8% classification accuracy by day 3, reaching a peak accuracy of 83.8% on day 4.
+
 | Model | Mean Accuracy | Days to 75% Accuracy |
 |---|---|---|
 | **WAM-Net (Ours)** | **79.6%** | **2** |
