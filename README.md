@@ -1,6 +1,6 @@
 # ApiSense: Pesticide Detection Using Honey Bees as Biosensors
 
-Honey bees forage up to 95 km² daily and are sensitive to sublethal pesticide concentrations, making them naturally distributed sensors for environmental contamination. ApiSense is a multi-sensor field platform that monitors bee foraging behavior, colony acoustics, and weather conditions continuously, and uses a weather-aware multimodal neural network (WAM-Net) to detect bifenthrin exposure before visible colony damage occurs.
+Honey bees forage up to 80 km² daily and are sensitive to sublethal pesticide concentrations, making them naturally distributed sensors for environmental contamination. ApiSense is a multi-sensor field platform that monitors bee foraging behavior, colony acoustics, and weather conditions continuously, and uses a weather-aware multimodal neural network (WAM-Net) to detect bifenthrin exposure before visible colony damage occurs.
 
 ---
 
@@ -50,13 +50,13 @@ Computes integrated gradients (IG) attribution scores for each feature throughou
 
 | Model | Mean Accuracy | Days to 75% Accuracy |
 |---|---|---|
-| **WAM-Net (Ours)** | **79.4%** | **2** |
+| **WAM-Net (Ours)** | **79.6%** | **2** |
 | LSTM | 74.2% | 4 |
-| GRU | 73.8% | 4 |
-| TCN | 73.5% | 5 |
+| GRU | 73.7% | 4 |
+| TCN | 73.4% | 5 |
 | SVM | 70.9% | — |
-| XGBoost | 69.1% | — |
-| Random Forest | 66.6% | — |
+| XGBoost | 68.6% | — |
+| Random Forest | 66.4% | — |
 
 ---
 
