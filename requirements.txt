@@ -1,0 +1,15 @@
+# ApiSense Python dependencies
+# Derived from imports in the repository's Python files.
+# Versions are not pinned because the original development environment is unknown.
+
+numpy
+pandas
+scipy
+scikit-learn
+torch
+xgboost
+ultralytics
+opencv-python
+librosa
+soundfile
+ocsort==0.0.2
