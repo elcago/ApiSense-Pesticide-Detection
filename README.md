@@ -21,24 +21,28 @@ Detects bees in each frame using a fine-tuned YOLOv8s model, tracks individual b
 
 Extracts six foraging features including activity levels, flight trip timing, and homing failure rate, and eight acoustic features including wingbeat frequency stability, spectral structure, and energy.
 
-**3. Training** — `train.py`
+### 3. Acoustic Feature Extraction: `Acoustic_feature.py`
+
+Extracts eight acoustic features from hive audio recordings, including fundamental frequency (f0), f0 stability, harmonic ratio, spectral centroid, spectral bandwidth, spectral flux, RMS energy, and zero crossing rate.
+
+**4. Training** — `train.py`
 
 Trains the WAM-Net model.
 
 
-**4. Inference** — `inference.py`
+**5. Inference** — `inference.py`
 
 Predicts bifenthrin exposure using the trained WAM-Net model.
 
-**5. Ablation Study** — `ablation.py`
+**6. Ablation Study** — `ablation.py`
 
 Removes each architectural component in turn, including cross-attention, weather gate, and weather input, and evaluates single-modality models to quantify each component's contribution.
 
-**6. Baseline Comparison** — `baselines.py`
+**7. Baseline Comparison** — `baselines.py`
 
 Compares with WAM-Net against LSTM, GRU, TCN, SVM, XGBoost, and Random Forest, all trained on the same input features.
 
-**7. Feature Importance** — `interpretability.py`
+**8. Feature Importance** — `interpretability.py`
 
 Computes integrated gradients (IG) attribution scores for each feature throughout the full exposure window. Identifies f0 stability and exit-entry ratio as the earliest behavioral biomarkers of bifenthrin exposure.
 
